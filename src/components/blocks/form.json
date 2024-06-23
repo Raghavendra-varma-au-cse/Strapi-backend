@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_forms",
+  "info": {
+    "displayName": "Formblock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-tag"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "AboutComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.about-component"
+    },
+    "EventDescription": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

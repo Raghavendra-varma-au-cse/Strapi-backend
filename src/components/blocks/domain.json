@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_domains",
+  "info": {
+    "displayName": "Domain"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-tag"
+    },
+    "Domains": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.domain-card"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.links"
+    }
+  }
+}

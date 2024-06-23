@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_domain_cards",
+  "info": {
+    "displayName": "DomainCard"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

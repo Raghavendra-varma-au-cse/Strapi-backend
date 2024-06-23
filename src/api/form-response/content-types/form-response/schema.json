@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_responses",
+  "info": {
+    "singularName": "form-response",
+    "pluralName": "form-responses",
+    "displayName": "FormResponse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

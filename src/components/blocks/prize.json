@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_prizes",
+  "info": {
+    "displayName": "Prize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-tag"
+    },
+    "Prizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.prize-card"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.links"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_styles",
+  "info": {
+    "singularName": "global-style",
+    "pluralName": "global-styles",
+    "displayName": "Global-style",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navColor": {
+      "type": "string"
+    },
+    "NavTitleColor": {
+      "type": "string"
+    },
+    "NavIconColor": {
+      "type": "string"
+    },
+    "NavIconHoverColor": {
+      "type": "string"
+    },
+    "specialButtonBG": {
+      "type": "string"
+    },
+    "specialButtonText": {
+      "type": "string"
+    },
+    "specialButtonTextHover": {
+      "type": "string"
+    },
+    "menubg": {
+      "type": "string"
+    },
+    "menuhover": {
+      "type": "string"
+    },
+    "specialButtonBGHover": {
+      "type": "string"
+    },
+    "HeroStyles": {
+      "type": "component",
+      "repeatable": false,
+      "component": "styles.hero-style"
+    },
+    "Light": {
+      "type": "component",
+      "repeatable": false,
+      "component": "styles.light-bg"
+    },
+    "Dark": {
+      "type": "component",
+      "repeatable": false,
+      "component": "styles.darkbg"
+    },
+    "footerbg": {
+      "type": "string"
+    },
+    "footericon": {
+      "type": "string"
+    },
+    "footerHead": {
+      "type": "string"
+    },
+    "footerLink": {
+      "type": "string"
+    },
+    "footerRights": {
+      "type": "string"
+    }
+  }
+}

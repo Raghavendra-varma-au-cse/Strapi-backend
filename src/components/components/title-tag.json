@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_title_tags",
+  "info": {
+    "displayName": "TitleTag"
+  },
+  "options": {},
+  "attributes": {
+    "Tag": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

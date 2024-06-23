@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_styles_hero_styles",
+  "info": {
+    "displayName": "heroStyle"
+  },
+  "options": {},
+  "attributes": {
+    "TitleStartcolor": {
+      "type": "string"
+    },
+    "TitleEndcolor": {
+      "type": "string"
+    },
+    "Tagcolor": {
+      "type": "string"
+    },
+    "countercolor": {
+      "type": "string"
+    },
+    "couterDescColor": {
+      "type": "string"
+    },
+    "buttonBg": {
+      "type": "string"
+    },
+    "buttonTextColor": {
+      "type": "string"
+    },
+    "buttonHover": {
+      "type": "string"
+    },
+    "buttonHovertext": {
+      "type": "string"
+    }
+  }
+}

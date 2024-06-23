@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    },
+    "SocialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.socialmedia"
+    },
+    "FooterLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.footerlinks"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_about_components",
+  "info": {
+    "displayName": "AboutCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}

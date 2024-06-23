@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_styles_darkbgs",
+  "info": {
+    "displayName": "Darkbg"
+  },
+  "options": {},
+  "attributes": {
+    "Darkbg": {
+      "type": "string"
+    },
+    "tagbg": {
+      "type": "string"
+    },
+    "tagtitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "specialbg1": {
+      "type": "string"
+    },
+    "specialbg2": {
+      "type": "string"
+    },
+    "buttonbg": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "buttonbghover": {
+      "type": "string"
+    },
+    "buttontexthover": {
+      "type": "string"
+    }
+  }
+}

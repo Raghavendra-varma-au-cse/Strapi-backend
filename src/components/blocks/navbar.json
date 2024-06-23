@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Navlinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.navlink"
+    }
+  }
+}

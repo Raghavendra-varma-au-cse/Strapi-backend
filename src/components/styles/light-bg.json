@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_styles_light_bgs",
+  "info": {
+    "displayName": "LightBg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lightBg": {
+      "type": "string"
+    },
+    "tagbg": {
+      "type": "string"
+    },
+    "tagText": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "subline": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "string"
+    },
+    "specialText1": {
+      "type": "string"
+    },
+    "specialText2": {
+      "type": "string"
+    },
+    "buttonBg": {
+      "type": "string"
+    },
+    "buttonColor": {
+      "type": "string"
+    },
+    "buttonbgHover": {
+      "type": "string"
+    },
+    "buttonTextHover": {
+      "type": "string"
+    },
+    "specialBg1": {
+      "type": "string"
+    },
+    "specialBg2": {
+      "type": "string"
+    }
+  }
+}

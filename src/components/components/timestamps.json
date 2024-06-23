@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_timestamps",
+  "info": {
+    "displayName": "timestamps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "DateTime": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

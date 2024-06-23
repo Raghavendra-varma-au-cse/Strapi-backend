@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_seo_meta_data",
+  "info": {
+    "displayName": "MetaData"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

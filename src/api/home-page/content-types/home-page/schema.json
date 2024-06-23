@@ -1,0 +1,98 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.meta-data"
+    },
+    "navbar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.navbar"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.hero"
+    },
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.about"
+    },
+    "PrizeBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.prize"
+    },
+    "TimeLine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.timeline"
+    },
+    "Domains": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.domain"
+    },
+    "Sponsor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.sponsor"
+    },
+    "Partner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.team"
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.team"
+    },
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.form"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.footer"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.faq-block"
+    }
+  }
+}
