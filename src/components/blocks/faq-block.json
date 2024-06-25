@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "component",
       "repeatable": false,
       "component": "components.title-tag"

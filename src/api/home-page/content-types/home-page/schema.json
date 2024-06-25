@@ -15,20 +15,6 @@
     "title": {
       "type": "string"
     },
-    "Description": {
-      "type": "text"
-    },
-    "favicon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Meta": {
       "type": "component",
       "repeatable": false,
@@ -93,6 +79,9 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.faq-block"
+    },
+    "RegOpen": {
+      "type": "boolean"
     }
   }
 }

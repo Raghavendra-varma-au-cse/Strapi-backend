@@ -18,12 +18,19 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }

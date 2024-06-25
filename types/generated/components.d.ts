@@ -11,6 +11,8 @@ export interface BlocksAbout extends Schema.Component {
     AboutComponent: Attribute.Component<'components.about-component', true>;
     EventDescription: Attribute.Text;
     image: Attribute.Media<'images' | 'videos'>;
+    label: Attribute.String;
+    Description: Attribute.Text;
   };
 }
 
@@ -33,7 +35,7 @@ export interface BlocksFaqBlock extends Schema.Component {
     description: '';
   };
   attributes: {
-    title: Attribute.Component<'components.title-tag'>;
+    Title: Attribute.Component<'components.title-tag'>;
     faqs: Attribute.Component<'components.faq-card', true>;
   };
 }
@@ -65,6 +67,7 @@ export interface BlocksHero extends Schema.Component {
   collectionName: 'components_blocks_heroes';
   info: {
     displayName: 'Hero';
+    description: '';
   };
   attributes: {
     Header: Attribute.String;
@@ -73,7 +76,6 @@ export interface BlocksHero extends Schema.Component {
     Background: Attribute.Media<'images'>;
     Avatar: Attribute.Media<'images'>;
     Register: Attribute.Component<'components.links'>;
-    RegistrationOpen: Attribute.Boolean;
   };
 }
 
@@ -270,11 +272,12 @@ export interface ComponentsTitleTag extends Schema.Component {
   collectionName: 'components_components_title_tags';
   info: {
     displayName: 'TitleTag';
+    description: '';
   };
   attributes: {
-    Tag: Attribute.String;
     Title: Attribute.String;
     Description: Attribute.String;
+    Tag: Attribute.String;
   };
 }
 
@@ -282,10 +285,12 @@ export interface SeoMetaData extends Schema.Component {
   collectionName: 'components_seo_meta_data';
   info: {
     displayName: 'MetaData';
+    description: '';
   };
   attributes: {
     Title: Attribute.String;
     Description: Attribute.Text;
+    favicon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 
