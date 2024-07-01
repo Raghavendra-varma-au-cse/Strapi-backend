@@ -149,7 +149,7 @@ export interface ComponentsAboutComponent extends Schema.Component {
   };
   attributes: {
     Title: Attribute.String;
-    value: Attribute.Integer;
+    value: Attribute.String;
   };
 }
 
